@@ -1,0 +1,40 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #404040;
+  text-align: center;
+}
+
+p {
+  margin: 2px;
+}
+
+a {
+  color: #b34700;
+}
+
+input,
+.user-card {
+  margin: 20px;
+  background-color: #999999;
+  border: 1px solid #ff6600;
+  border-radius: 5px;
+  width: 320px;
+  height: 30px;
+  padding: 5px;
+}
+
+.user-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user-card {
+  margin: 10px;
+  height: 350px;
+}
+
+.user-card img {
+  height: 150px;
+  margin: -15px 0 10px 0;
+}
